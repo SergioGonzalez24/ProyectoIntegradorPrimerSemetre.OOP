@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6133927D25783AB400F209D6 /* TarjetaVirtual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6133927B25783AB400F209D6 /* TarjetaVirtual.cpp */; };
+		616DF6C3257820980019A448 /* Usuario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 616DF6C1257820980019A448 /* Usuario.cpp */; };
 		61D4BBA42577701D008EC057 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61D4BBA32577701D008EC057 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6133927B25783AB400F209D6 /* TarjetaVirtual.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TarjetaVirtual.cpp; sourceTree = "<group>"; };
+		6133927C25783AB400F209D6 /* TarjetaVirtual.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TarjetaVirtual.hpp; sourceTree = "<group>"; };
+		616DF6C1257820980019A448 /* Usuario.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Usuario.cpp; sourceTree = "<group>"; };
+		616DF6C2257820980019A448 /* Usuario.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Usuario.hpp; sourceTree = "<group>"; };
 		61D4BBA02577701D008EC057 /* Proyecto Integrador Primer semestre OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Proyecto Integrador Primer semestre OOP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D4BBA32577701D008EC057 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +63,10 @@
 		61D4BBA22577701D008EC057 /* Proyecto Integrador Primer semestre OOP */ = {
 			isa = PBXGroup;
 			children = (
+				616DF6C1257820980019A448 /* Usuario.cpp */,
+				6133927B25783AB400F209D6 /* TarjetaVirtual.cpp */,
+				6133927C25783AB400F209D6 /* TarjetaVirtual.hpp */,
+				616DF6C2257820980019A448 /* Usuario.hpp */,
 				61D4BBA32577701D008EC057 /* main.cpp */,
 			);
 			path = "Proyecto Integrador Primer semestre OOP";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6133927D25783AB400F209D6 /* TarjetaVirtual.cpp in Sources */,
+				616DF6C3257820980019A448 /* Usuario.cpp in Sources */,
 				61D4BBA42577701D008EC057 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
