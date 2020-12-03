@@ -150,8 +150,7 @@ int main() {
                 cout << endl;
                 
                 TarjetaVirtual tr1(numero,codigo,dinero,url,sitio);
-                SitioValido sitioTar(url,sitio);
-                
+            
                 system("clear");
                 tr1.print();
                 
