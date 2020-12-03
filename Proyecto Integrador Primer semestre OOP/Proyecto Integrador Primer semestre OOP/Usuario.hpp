@@ -8,6 +8,7 @@
 #ifndef Usuario_hpp
 #define Usuario_hpp
 
+
 #include <stdio.h>
 #include <string>
 
@@ -23,6 +24,7 @@ private:
     string nomUsuario;
     string contraseña;
     
+    
 public:
     
 //    Constructores
@@ -31,9 +33,9 @@ public:
 //    Gets
     string getNombre() {return nombre;}
     int getEdad() {return edad;}
-    string getCorreoElectronico () {return correoElectronico;}
-    string getNomUsuario () {return nomUsuario;}
-    string getContraseña () {return contraseña;}
+    string getCorreoElectronico() {return correoElectronico;}
+    string getNomUsuario() {return nomUsuario;}
+    string getContraseña() {return contraseña;}
     
 //    Sets
     void setNombre(string Nombre);
