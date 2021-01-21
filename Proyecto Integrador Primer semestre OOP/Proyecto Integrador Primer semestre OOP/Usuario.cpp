@@ -42,5 +42,5 @@ void Usuario::setContraseña(string contraseña) {
 }
 
 void Usuario::print() {
-    std::cout << "Nombre: " << getNombre() << "\n" << "Edad: " << getEdad() << "\n" << "Correo: " << getCorreoElectronico() << "\n" << std::endl;
+    std::cout << "Name: " << getNombre() << "\n" << "Age: " << getEdad() << "\n" << "E-mail: " << getCorreoElectronico() << "\n" << std::endl;
 }

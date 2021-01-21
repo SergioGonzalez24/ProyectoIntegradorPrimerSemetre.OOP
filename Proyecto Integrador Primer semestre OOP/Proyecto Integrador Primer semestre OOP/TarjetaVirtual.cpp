@@ -33,7 +33,7 @@ void TarjetaVirtual::setUrlTarjeta(string url, string nombreSitio) {
 }
 void TarjetaVirtual::print() {
     
-    std::cout << "Numero de tarjeta :" << getNumTarjeta() << "\n" <<  "Codigo: ºººº \n" << "Dinero en tarjeta: " << getDineroTarjeta() << std::endl;
+    std::cout << "Card Number :" << getNumTarjeta() << "\n" <<  "Code: ºººº \n" << "Money in Card: " << getDineroTarjeta() << std::endl;
 
 }
 

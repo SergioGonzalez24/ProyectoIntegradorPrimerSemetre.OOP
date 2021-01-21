@@ -31,9 +31,9 @@ void SitioValido::setUrlSitio(string urlSitio) {
 void SitioValido::verificacionUrl(string Url) {
     
     if(Url==getUrlSitio()) {
-        std::cout << "SI SE PUEDE UTILIZAR TU TARJETA" << std::endl;
+        std::cout << "YUP! YOU CAN USE YOUR CARD " << std::endl;
     }
     else {
-        std::cout << "NO SE RECONOCE TARJETA " << std::endl;
+        std::cout << "YOUR CARD IS NOT RECOGNIZE " << std::endl;
     }
 }
