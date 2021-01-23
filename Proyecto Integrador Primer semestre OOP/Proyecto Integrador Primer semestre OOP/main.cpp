@@ -48,31 +48,31 @@ int main() {
         while (data==true) {
             
             string nombre;
-            cout << "Nombre: ";
+            cout << "Name: ";
             cin >> nombre;
             cout << endl;
             usr1.setNombre(nombre);
             
             int edad;
-            cout << "Edad: ";
+            cout << "Age: ";
             cin >> edad;
             cout << endl;
             usr1.setEdad(edad);
         
             string correoElectronico;
-            cout << "Correo: ";
+            cout << "Email: ";
             cin >> correoElectronico;
             cout << endl;
             usr1.setCorreoElectronico(correoElectronico);
         
             string usuario;
-            cout << "Usuario: ";
+            cout << "Username:  ";
             cin >> usuario;
             cout << endl;
             usr1.setNomUsuario(usuario);
             
             string contraseña;
-            cout << "Contraseña: ";
+            cout << "Pasword: ";
             cin >> contraseña;
             cout << endl;
             usr1.setContraseña(contraseña);
@@ -80,7 +80,7 @@ int main() {
             system("clear");
             usr1.print();
             
-            cout << "¿Tus datos son correctos? y/n" << endl;
+            cout << "Your data is correct? y/n" << endl;
             char pregData;
             cin >> pregData;
             cout << endl;
