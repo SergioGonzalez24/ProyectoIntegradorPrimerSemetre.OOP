@@ -17,9 +17,9 @@
 
 #include <iostream>
 #include <string>
-#include "Usuario.hpp"
-#include "TarjetaVirtual.hpp"
-#include "SitioValido.hpp"
+#include "../include/Usuario.hpp"
+#include "../include/TarjetaVirtual.hpp"
+#include "../include/SitioValido.hpp"
 
 
 using std::cout;

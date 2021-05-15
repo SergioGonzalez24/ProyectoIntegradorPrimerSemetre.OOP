@@ -5,7 +5,7 @@
 //  Created by Sergio Gonzalez on 02/12/20.
 //
 
-#include "SitioValido.hpp"
+#include "../include/SitioValido.hpp"
 #include <string>
 #include <iostream>
 

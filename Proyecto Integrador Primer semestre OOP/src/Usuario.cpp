@@ -5,7 +5,7 @@
 //  Created by Sergio Gonzalez on 02/12/20.
 //
 
-#include "Usuario.hpp"
+#include "../include/Usuario.hpp"
 #include <iostream>
 #include <string>
 

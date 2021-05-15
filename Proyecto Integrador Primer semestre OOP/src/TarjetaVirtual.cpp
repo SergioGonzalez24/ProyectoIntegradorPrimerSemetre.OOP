@@ -5,8 +5,8 @@
 //  Created by Sergio Gonzalez on 02/12/20.
 //
 
-#include "TarjetaVirtual.hpp"
-#include "SitioValido.hpp"
+#include "../include/TarjetaVirtual.hpp"
+#include "../include/SitioValido.hpp"
 #include <iostream>
 
 TarjetaVirtual::TarjetaVirtual(int numTarjeta, int codigoTarjeta, int dineroTarjeta, string Url, string nombreSitio) {

@@ -8,7 +8,7 @@
 #ifndef TarjetaVirtual_hpp
 #define TarjetaVirtual_hpp
 #include <stdio.h>
-#include "SitioValido.hpp"
+#include "../include/SitioValido.hpp"
 
 class TarjetaVirtual {
     
